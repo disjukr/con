@@ -1,0 +1,13 @@
+# vim: sw=2
+name: con
+
+on:
+  push:
+    branches:
+    - con
+
+jobs:
+  con:
+    runs-on: windows-latest
+    steps:
+    - uses: actions/checkout@v2
